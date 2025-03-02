@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoleTies</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top bg-light navbar-light">
+      <div class="container">
+          <a class="navbar-brand" href="index.html">
+              <img id="MDB-logo" src="images/324874924_2333079813526323_8339248174016952998_n.jpg" 
+                  alt="SoleTies" draggable="false" height="80" />
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse pl-5 clearfix" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto align-items-center">
+                  <li class="nav-item dropdown">
+                      <div class="dropdown">
+                          <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                              Sneakers
+                          </button>
+                          <div class="dropdown-menu">
+                              <a class="dropdown-item" href="Nike.htm">Nike</a>
+                              <a class="dropdown-item" href="NewBalance.htm">New Balance</a>
+                              <a class="dropdown-item" href="Onitsuka Tiger.htm">Onitsuka Tiger</a>
+                              <a class="dropdown-item" href="OnCloud.htm">On Cloud</a>
+                          </div>
+                      </div>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link mx-2" href="gallery.htm"><i class="fas fa-image mr-2"></i>Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link mx-2" href="testimonials.htm"><i class="fas fa-comments mr-2"></i>Testimonials</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link mx-2" href="About us.htm"><i class="fas fa-question mr-2"></i>About us</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link mx-2" href="Contact us.htm"><i class="fas fa-paper-plane mr-2"></i>Contact us</a>
+                  </li>
+  
+                  <!-- Shopping Cart Icon with Dropdown -->
+                  <li class="nav-item dropdown">
+                      <a class="nav-link mx-2 ml-3" href="#" id="cart-icon" data-toggle="dropdown">
+                          <i class="fas fa-shopping-cart fa-lg"></i>
+                          <span id="cart-count" class="badge badge-danger">0</span>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right p-3" style="width: 300px;">
+                          <h6 class="dropdown-header">Shopping Cart</h6>
+                          <ul id="cart-items" class="list-unstyled"></ul>
+                          <div class="dropdown-divider"></div>
+                          <p class="text-center font-weight-bold">Total: ₱<span id="cart-total">0.00</span></p>
+                          <button class="btn btn-primary btn-block" id="checkout-btn">Checkout</button>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+      <!--Navbar-->
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <!--Content-->
+
+      <div class="reviews">
+        <h1>Testimonials</h1>
+      </div>
+      <br>
+      <div class="tests">
+        <img src="https://i.pinimg.com/474x/09/38/ff/0938ff37fc76699f5184ae613754ab43.jpg" alt="Profile" width="90px" class="rounded-circle">
+        <p><span>Jerry Smith</span>Customer</p>
+        <p>Great service... and  very fast delivery!!! Will shop again...</p>
+      </div>
+      <br>
+      <div class="tests">
+        <img src="https://i.pinimg.com/474x/2d/7a/04/2d7a04020ad5d147ab19adc4db0a6f49.jpg" alt="Profile" width="90px" class="rounded-circle">
+        <p><span>Amelia Earhart</span>Customer</p>
+        <p>Shoe is of great quality! I would DEFINITELY recommend!</p>
+      </div>
+      <br>
+      <div class="tests">
+        <img src="https://i.pinimg.com/474x/a9/7b/df/a97bdff7ab54859c0746237ad9864b9b.jpg" alt="Profile" width="90px" class="rounded-circle">
+        <p><span>LeBron James</span>Customer</p>
+        <p>I played with the basketball shoes they got</p>
+      </div>
+      <br>
+      <div class="tests">
+        <img src="https://i.pinimg.com/736x/87/5b/58/875b586f530e2107c915878d8c7b480c.jpg" alt="Profile" width="90px" class="rounded-circle">
+        <p><span>Juan Dela Cruz</span>Customer</p>
+        <p>I've been trying to find kicks but I couldn't get my hands on the ones I like. And I got them legit from this place!!</p>
+      </div>
+      <br>
+      <div class="tests">
+        <img src="https://i.pinimg.com/474x/25/d6/91/25d691ecb6b761b619dca50a12631ba9.jpg" alt="Profile" width="90px" class="rounded-circle">
+        <p><span>Felicia Forlorn</span>Customer</p>
+        <p>Just got them in just a day!!</p>
+      </div>
+      <br>
+      <div class="tests">
+        <img src="http://i.pinimg.com/474x/31/63/d7/3163d754be68d8a0fdec2d61d069577e.jpg" alt="Profile" width="90px" class="rounded-circle">
+        <p><span>Cristian Heiro Marigold</span>Customer</p>
+        <p>Nice shoes, got them for only 15k.</p>
+      </div>
+
+      <!--Content-->
+
+         <!-- Footer -->
+    <footer class="bg-light text-center text-dark mt-5 py-4">
+      <div class="container">
+          <h5>Follow us on socials</h5>
+          <div class="mb-3">
+              <a href="https://www.facebook.com/profile.php?id=100089575442329" class="text-dark mx-2"><i class="fab fa-facebook fa-lg"></i></a>
+              <a href="https://www.instagram.com/soleties.ph/" class="text-dark mx-2"><i class="fab fa-instagram fa-lg"></i></a>
+          </div>
+          <p class="mb-1">© 2024 <strong>SoleTies</strong>. All rights reserved.</p>
+          <p>Created by <strong>Estrella, Inovejas, Lim, Manila, Viñas</strong></p>
+      </div>
+  </footer>
+  <!-- Footer -->
+
+  <script src="script.js"></script>
+  </body>
+</html>
